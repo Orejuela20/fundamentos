@@ -5,22 +5,22 @@
 using namespace std;
 int main()
 {
-	float x,y,s,m,d,r;
+	float p,q,a,b,e,f;
 	//ingrese los datos
-	cout<<"ingrese valor de x=;";
-	cin>>x;
-	cout<<"ingrese valor de y=;";
+	cout<<"ingrese valor de p=;";
+	cin>>p;
+	cout<<"ingrese valor de q=;";
 	//operaciones
-	cin>>y;
-	s=x+y;
-	m=x*y;
-	d=x/y;
-	r=x-y;
+	cin>>q;
+	a=p+q;
+	b=p*q;
+	e=p/q;
+	f=p-q;
 	//resultados
-	cout<<"la suma de "<<x<<" + "<<y<<" = "<<s<<endl;
-	cout<<"la multiplicacion de "<<x<<" * "<<y<<" = "<<m<<endl;
-	cout<<"la division de "<<x<<" /"<<y<<" = "<<d<<endl;
-	cout<<" la resta de "<<x<<" - "<<y<<" = "<<r<<endl;
+	cout<<"la suma de "<<p<<" + "<<q<<" = "<<a<<endl;
+	cout<<"la multiplicacion de "<<p<<" * "<<q<<" = "<<b<<endl;
+	cout<<"la division de "<<p<<" /"<<q<<" = "<<e<<endl;
+	cout<<" la resta de "<<p<<" - "<<q<<" = "<<f<<endl;
 	return 0 ;
 }
 
