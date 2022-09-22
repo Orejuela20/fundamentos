@@ -1,19 +1,21 @@
 
+//creado por:orejuela jefferson
+//fecha:22-9-2022
 #include<iostream>
 using namespace std;
 int main()
 
 {
-	int i=0,l;
-	float x,s=0;
-	cout<<"ingrese el limite l="; cin>>l;
+	int j=0,k;
+	float r,m=0;
+	cout<<"ingrese el limite k="; cin>>k;
 	do{
-	cout<<"ingrese el numero x="; cin>>x;
-	i=i+1;
-	s=s+x;
+	cout<<"ingrese el numero r="; cin>>r;
+	j=j+1;
+	m=m+r;
 
-	}while(i<l);
-	cout<<"se ingresaron "<<l<<"numeros "<<"que sumaron "<<s<<endl;
+	}while(j<k);
+	cout<<"se ingresaron "<<k<<"numeros "<<"que sumaron "<<m<<endl;
 	return 0;
 
 }
